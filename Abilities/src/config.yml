@@ -1,0 +1,175 @@
+#########FishyAbilities###########
+#FishyAbilites - Made by: Landen#3206 & Jack A.#0001 on discord!
+#If you have any problems or questions please make a ticket in the Fishy Development discord!
+#This is first project there might be some bugs!
+#If you find any bugs please report in the Fishy Development discord!
+
+#######Main Configuration#####
+Main:
+  GiveMessage: "&cYou have recieved %ability%&c!"
+  NoPermission: "&cNo permission!"
+  Cooldown: "&cYou are still on cooldown for &c&l%time% &cseconds!"
+  Colors:
+    Main-Color: "&2&l"
+    Secondary-Color: "&a"
+###########License############
+License: ""
+##############################
+
+
+Snowport:
+  Name: "&9&lSnowport"
+  Lore: "&cHit a player to switch positions with them!"
+  Cooldown: 16
+  Message:
+    - "&2%heart% &aYou have switched positions with %player%"
+  Range:
+    Enabled: true
+    Message: "&cThat player is out of range!"
+    Range: 15
+
+Cocaine:
+  Name: "&f&lCocaine"
+  Lore: "&cRight-Click to recieve speed 3!"
+  Cooldown: 20
+  Message:
+    - "&2%heart% &aYou have used your &f&lCocaine&a ability!"
+    - "&aYou are now on cooldown for&f 20 seconds!"
+  Speed:
+    Time: 160 #In Minecraft ticks, 1 second = 20 ticks!
+    Power: 2 #Amount of speed
+
+PocketBard:
+  Name: "&6&lPocket Bard"
+  Lore: "&cRight-Click to recieve portable bard effects!"
+  Cooldown: 60
+  Message:
+    - "&2%heart% &aYou have used your &6&lPocket Bard&a ability!"
+    - "&aYou are now on cooldown for &f60 seconds!"
+  Effects:
+    Strength:
+      Time: 160
+      Power: 1
+    Resistance:
+      Time: 160
+      Power: 2
+    Regeneration:
+      Time: 160
+      Power: 2
+
+Tazer:
+  Name: "&e&lTazer"
+  Lore: "&cHit a player with this to taze them"
+  Cooldown: 30
+  Messages:
+    Tazed:
+      - "&2%heart% &aYou have been &e&lTazed!"
+      - "&aYou now have Blindness & Slowness"
+    Used:
+      - "&2%heart% &aYou have used your &e&lTazer&a on %player%"
+      - "&aYou are now on cooldown for &f30 seconds!"
+  Effect:
+    Blindness:
+      Time: 160
+      Power: 1
+    Slowness:
+      Time: 160
+      Power: 1
+
+SwitchStick:
+  Name: "&9&lSwitch Stick"
+  Lore: "&cSwitches the player hit a full 180 degrees."
+  Cooldown: 15
+  Messages:
+    Switched:
+      - "&2%heart% &aYou have been turned around 180 degrees thanks to %player%"
+    Switcher:
+      - "&2%heart% &aYou have used your &9&lSwitch Stick&a on %player%"
+      - "&aThey have turned around a full 180 degrees!"
+      - "&aYou are now on cooldown for &f15 seconds!"
+
+InstantInvis:
+  Name: "&9&lInstant Invis"
+  Lore: "&cRight-Click to give you an invisibility effect."
+  Cooldown: 60
+  Message:
+    - "&2%heart% &aYou have used your &9&lInstant Invis"
+    - "&aYou are now on cooldown for&f 60 seconds!"
+  Invis:
+    Time: 480 #seconds
+
+InstantCrapple:
+  Name: "&e&lInstantCrapple"
+  Lore: "&cRight-Click to instantly eat a crapple."
+  Cooldown: 30
+  Message:
+    - "&2%heart% &aYou have used your &e&lInstant Crapple"
+    - "&aYou are now on cooldown for&f 30 seconds!"
+
+Rocket:
+  Name: "&2&lRockets"
+  Lore: "&cRight-Click to fly in the air!"
+  Cooldown: 10
+  Boost:
+    Y: 1
+    ZandX: 3
+  Message:
+    - "&2%heart% &aYou have used your &2&lRocket"
+    - "&aYou are now on cooldown for &f10 seconds!"
+
+SwapperAxe:
+  Cooldown: 60
+  Delay: 3
+  Name: "&2&lSwapper Axe"
+  Lore: "&cHit a player to remove their helmet"
+  Messages:
+    Hit:
+      - "&cYour helmet was succesfully removed from your body!"
+    FullInventory:
+      - "&cYour inventory is full, your helmet is on the ground!"
+    Used:
+      - "&cYou have succesfully made %player% lose their helet!"
+    HitDelay:
+      - "&2%heart%&a You have hit with the &2&lSwapper Axe"
+      - "&aYou will lose your helmet in 3 seconds!"
+    UsedDelay:
+      - "&2%heart% &aYou have used your &2&lSwapper Axe"
+      - "&a%player% will lose their helmet in 3 seconds!"
+
+PearlReset:
+  Cooldown: 60
+  Name: "&9&lPearl Reset"
+  Lore: "&cResets your pearl cooldown!"
+  Command: "timer set Enderpearl %player% 0"
+  Message:
+    - "&2%heart% &aYou have used your &9&lPearl Rest &aToken"
+    - "&aYou are now on cooldown for &f60 seconds!"
+
+FastPearl:
+  Name: "&5&lFast Pearl"
+  Lore: "&cA enderpearl with a shorter cooldown."
+  Command: "timer set enderpearl %player% 6"
+  Message:
+    - "&2%heart% &aYou have used your &5&lFast Pearl"
+    - "&aYou're enderpearl cooldown has been set to&f 6 seconds!"
+
+Anti-BuildEgg:
+  Name: "&c&lAnti-BuildEgg"
+  Lore: "&cHit a player with this to make them not build for 10 seconds!"
+  Cooldown: 30
+  Time: 10
+  Messages:
+    Used:
+      - "&2%heart% &aYou have used your &c&lAnti-BuildEgg&a on %player%!"
+      - "&aYou are now on cooldown for &f 30 seconds!"
+    Hit:
+      - "%2%heart% &aYou have been hit with a &c&lAnti-BuldEgg&a!"
+      - "&aYou cannot build for &f 10 seconds!"
+    Anti-Build:
+      - "&cYou cannot use this for another &c&l%time%&c seconds!"
+
+GrapplingHook:
+  Name: "&2&lGrapping Hook"
+  Lore: "&cIt throws you where you grapple to!"
+  Cooldown: 20
+
