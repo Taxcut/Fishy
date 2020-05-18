@@ -1,0 +1,227 @@
+name: HCF
+version: 1.0-SNAPSHOT
+description: iHCF Fork
+author: Fishy Dev
+main: com.fishy.hcf.HCF
+softdepend: [Vault, ProtocolLib, WorldEdit]
+license: MIT
+commands: 
+  ffaenabled:
+  showstaff:
+  feed:
+  customtimer:
+    description: aids
+  speed:
+    aliases: [swiftness, sp]
+  nightvision:
+    aliases: [nvision, nv]
+  fres:
+    aliases: [fireresistance, fireres, fr]
+  invis:
+    aliases: [invsib, invisibility]
+  endportal:
+  repair:
+    aliases: [fix, fixall]
+  stats:
+    aliases: [stat, statistics]
+  give:
+  skull:
+  condense:
+  stack:
+  flyspeed:
+  hideplayer:
+  showplayer:
+  nick:
+    aliases: [nickname, fakename]
+  ffa:
+  heal:
+  clear:
+      aliases: [ci, cpinv]
+  kill:
+  fly:
+  enchant:
+  chatcolor:
+    aliases: [chat, color, colorchat]
+  flashsale:
+  doublekey:
+  keysale:
+  world:
+  sudo:
+  oinvsee:
+  hub:
+    aliases: [lobby, igotfuckingtrapped]
+  store:
+  copyinv:
+  telegram:
+  top:
+    aliases: [highestpoint, uphigher, high]
+  statsreset:
+    aliases: [resetstats]
+  help:
+    aliases: [?]
+  staff:
+    aliases: [staffmode, mod, h]
+  freeze:
+    aliases: [ss]
+  focus:
+  glowstone:
+  refund:
+    aliases: [death, restoreinv, inv]
+  vanish:
+    aliases: [v]
+  angle:
+    description: Check your yaw and pitch position.
+  conquest:
+    description: Command used to handle Conquest events.
+  death:
+    description: Command used to kill combat-loggers.
+  economy:
+    aliases: [$, bal, money, eco, econ]
+    description: Command used to modify the economy.
+  end:
+    description: Command used to close or open the end.
+  ping:
+  eotw:
+    aliases: [endoftheworld]
+    description: Sets if the server is in End of the World mode.
+  event:
+    description: Command used to manage minigame events.
+  spawner:
+  list:
+    aliases: [who, online, listplayers, players]
+  faction:
+    aliases: [f, fac]
+    description: Faction related commands.
+  gopple:
+    description: Command to check remaining OP apple cooldown time.
+    aliases: [opple, goppletimer, goppletime, oppletimer, oppletime]
+  hcf:
+    aliases: [hardcorefactions, hcfactions]
+  koth:
+    description: Make or delete KotH arenas.
+  lives:
+    description: Management of lives or deathbans.
+  massay:
+  location:
+    aliases: [loc]
+    description: Check the faction location of a player.
+  logout:
+    aliases: [disconnect, getthefuckout]
+    description: Command to safely logout without an NPC spawning.
+  mapkit:
+    aliases: [viewkit]
+    description: Used to check the current map restrictions.
+  pay:
+    aliases: [p2p]
+    description: Allow players to pay money.
+  pvptimer:
+    aliases: [pvp]
+    description: Command to enable or disable pvp timer protection.
+  regen:
+    description: Check ETA until a faction is able to regenerate DTR.
+  servertime:
+    description: Checks the date and time of server.
+  sotw:
+    aliases: [startoftheworld]
+    description: Command used to manage start of the world.
+  spawncannon:
+    aliases: [cannon, playercannon]
+    description: Shoots you into the warzone.
+  staffrevive:
+    description: Command used by staff to revive players.
+  timer:
+    description: Command to manage timer.
+  togglecapzoneentry:
+    aliases: [togglecapentry]
+    description: Command used to hide or show capture zone entry messages.
+  togglelightning:
+    aliases: [lightningtoggle, togglestrikes]
+    description: Toggles the lightning strikes for when a player dies.
+  savedata:
+    aliases: [saveall]
+    description: Save all data to server.
+  craft:
+    aliases: [workbench]
+    description: Open up workbench with permission.
+  rename:
+    aliases: [changename]
+    description: Change item name in your hand.
+  focus:
+    aliases: [unfocus]
+    description: Focus the enemy team.
+  kit:
+    aliases: [gkit]
+    description: Show all kit executions.
+  broadcast:
+    aliases: [bc]
+    description: Send message to server.
+  teleport:
+    aliases: [tp]
+    description: Teleport a player.
+  gamemode:
+    aliases: [gm]
+    description: Set gamemode.
+  sounds:
+    aliases: [togglesounds]
+    description: Toggle message sounds.
+  togglemessages:
+    aliases: [tpm, togglepm, togglepms]
+    description: Toggle private messages.
+  reply:
+    aliases: [r]
+    description: Reply to private messages.
+  message:
+    aliases: [m, msg, w, tell, pm]
+    description: Send text to private messages.
+  spawn:
+    aliases: [spawntp]
+    description: Teleport to spawn point.
+  cobble:
+    aliases: [cobblestone]
+    description: Disable pickup for cobble.
+  invsee:
+    aliases: [inventorysee]
+    description: Open-up inventory of target.
+  hidestaff:
+    aliases: [staffhide, hs]
+    description: Hide all staff users.
+  lff:
+    aliases: [lookingforfaction]
+    description: Look for a faction because you cant find one LOL noob
+  discord:
+    aliases: [disc]
+    description: Get the discord thing
+  website:
+    aliases: [web]
+    description: get the website
+  giveaway:
+    description: get free shit
+  freezeserver:
+    description: Freezes the server.44
+  teamspeak:
+    description: teamspeaka
+  playtime:
+    aliases: [pt]
+  tl:
+    aliases: [tc, telllocation]
+    description: check the location fam
+  keysale:
+    description: keysale boy
+  sale:
+    description: set the sale
+  reboot:
+    description: Reboot
+  panic:
+    description: since the anticheat is trash if famous/youtubers need halp do this cMd
+  chest:
+    description: skrt fam block dab skrt Lit dab litdskrt
+  tpall:
+    description: teleporting all
+  tppos:
+    description: teleportto a place
+  tphere:
+    description: Teleport players to your location
+    aliases: [s]
+  killtheking:
+    description: kill this person lol
+    aliases: [ktk]
